@@ -54,7 +54,7 @@ The penalty term $k\ln N$ grows **logarithmically with the dataset size**, makin
 
 ### AIC — Burnham & Anderson (2004)
 
-The model with the **lower AIC** is preferred. Its competitors are ranked by $\Delta_i = \text{AIC}_i - \text{AIC}_{\min}$:
+The model with the **lower AIC** is preferred. Its competitors are ranked by $\Delta_i = AIC_i - AIC_{min}$:
 
 | $\Delta_i$ | Interpretation |
 |---|---|
@@ -68,11 +68,11 @@ The model with the **lower AIC** is preferred. Its competitors are ranked by $\D
 
 $\Delta\text{BIC} = \text{BIC}_2 - \text{BIC}_1$. A **negative** value favours Model 2; a **positive** value favours Model 1.
 
-| $|\Delta\text{BIC}|$ | Strength of evidence |
+| $\Delta BIC$ | Strength of evidence |
 |---|---|
 | $< 2$ | Weak / Inconclusive |
-| $2$–$6$ | Positive |
-| $6$–$10$ | Strong |
+| 2-6 | Positive |
+| 6-10 | Strong |
 | $> 10$ | Very strong (decisive) |
 
 ---
